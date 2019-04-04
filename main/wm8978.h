@@ -1,7 +1,6 @@
 #ifndef __WM8978_H
 #define __WM8978_H
-
-
+#include <stdint.h>
 #define WM8978_ADDR	0X34
 
 uint8_t WM8978_Write_Reg(uint8_t reg,uint16_t val);
